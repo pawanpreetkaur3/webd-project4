@@ -1,0 +1,140 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name: Pawanpreet Kaur
+    Date: 26-04-2023
+    Description: Styles for Project 4.
+
+********************/
+.Intro{
+    background: url(images/backgroundimage.jpg);
+    width: 650px;
+    height: 300px;
+	background-size: cover;
+	color: #FFF;
+	padding: 20px;
+	position: relative;
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+	
+}
+
+.Intro h1{
+    font-weight: 50px;
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    bottom: 8px;
+}
+
+.Intro p{
+    font-weight: 80px;
+    font-size: 40px;
+    position: absolute;
+	bottom: 16px;
+    top: 200px;
+    color: yellow;
+}
+
+.description img{
+    background: url(images/myphoto.jpg);
+    display: block;
+    height: 250px;
+    border: 2px solid black;
+	position: relative;
+    float: right;
+}
+
+.description{
+    background-color: #5d682c;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+}
+
+.description h2{
+    font-size: 40px;
+    color: #45a9bb;
+}
+
+.description p{
+    font-size: 20px;
+    font-style: italic;
+    color: bisque;
+}
+
+.abilities{
+    background: url(images/skills.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	color: #fff;
+	padding: 20px;
+	position: relative;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.abilities h2{
+    color: red;
+}
+
+.abilities ul li{
+    color: #090827;
+}
+
+.abilities ol li{
+    color: #090827;
+}
+
+.abilities p{
+    font-size: 20px;
+    color: #090827;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form{
+    background-color: #bb454b;
+}
+
+.header-nav{
+    list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.header-nav li{
+	border-right: 1px solid #3836b8;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 22px;
+}
+
+.header-nav li a:hover{
+	color: #FFF000;
+}
+
+.header-nav li:last-of-type{
+	border-style: none;
+}
+
+.submit,
+.clear {
+	height: 36px;
+	color: #333;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+.submit {
+	margin-right: 15px;
+}
+
+.submit:hover,
+.clear:hover {
+	cursor: pointer;
+}
+
+

@@ -1,0 +1,59 @@
+<!--------w-----------
+
+    Project 4
+    Name: Pawanpreer Kaur
+    Date: 26-04-2023
+    Description: Represents the contactform HTML document for Project 4.
+
+--------------------->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact Form</title>
+		<link rel="stylesheet" type="text/css" href="project4.css">
+		<link rel="shortcut icon" href="#">
+		<script src="script.js"></script>
+    </head>
+    <body>
+        <form id="contactform" action="thankyou" method="post">
+            <ul class="header-nav">
+                <li><a href="index.html">index</a></li>
+                <li><a href="Aboutme.html">Aboutme</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="contactform.html">contactform</a></li>
+            </ul>
+            <div class="form">
+                <h1>Contact Form</h1>
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text">
+                        <p class="information error" id="name_error">* Required field</p>
+                    </li>
+                    <li>
+                        <label for="phonenumber">Phone Number</label>
+                        <input id="phonenumber" name="phonenumber" type="tel">
+                        <p class="information error" id="phonenumber_error">* Required field</p>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="text">
+                        <p class="information error" id="email_error">* Required field</p>
+                        <p class="information error" id="emailformat_error">
+                        * Invalid email address</p>
+                    </li>
+                    <li>
+                        <label for="comments">Comments</label>
+                        <input id="comments" name="comments" type="text">
+                        <p class="information error" id="comments_error">* Required field</p>
+                    </li>
+                </ul>
+                <p class="center">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="clear">Reset</button>
+                </p>
+            </div>
+        </form>
+    </body>
+</html>
